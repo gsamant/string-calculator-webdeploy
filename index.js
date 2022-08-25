@@ -34,7 +34,7 @@ const server = http.createServer(function(request, response) {
   }
 })
  
-const port = process.env.PORT || 3000;
-const url = process.env.URL || "http://localhost:3000";
+const port = process.env.PORT || 8080;
+const url = process.env.URL || "http://localhost:8080";
 server.listen(port);
 console.log(`Listening at http://localhost:${port}`)
