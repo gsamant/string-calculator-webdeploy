@@ -1,6 +1,7 @@
 const webdriver = require("selenium-webdriver");
 const By = webdriver.By;
 var moment = require("moment");
+//var assert = require("assert");
 var waitTime = 3 // 2 seconds
 
 // username: Username can be found at automation dashboard
@@ -75,7 +76,7 @@ async function startTest(gridUrl, capabilities, name) {
     .get(url)
     .then(function () {
       const session = driver.getSession();
-      driver.findElement(webdriver.By.name("numbers")).sendKeys("2,3,4").then(function(){
+      driver.findElement(webdriver.By.name('numbers')).sendKeys("2,3,4").then(function(){
         console.log("Successfully inserted numbers.");
       });
       driver.findElement(webdriver.By.name('add')).click().then(function(){
