@@ -1,1 +1,18 @@
-{"name":"string-calculator","version":"1.0.0","description":"","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" &amp;&amp; exit 1"},"keywords":[],"author":"","license":"ISC","dependencies":{"jest":"^28.1.3"}}
+{
+"name": "string-calculator-webdeploy",
+"version": "1.0.0",
+"description": "",
+"main": "index.js",
+"scripts": {
+    "test": "echo \"Error: no test specified\" &amp;&amp; exit 1",
+    "start": "node index.js"
+},
+"keywords": [],
+"author": "",
+"license": "ISC",
+"dependencies": {
+    "asserts": "^4.0.2",
+    "moment": "^2.29.1",
+    "selenium-webdriver": "^4.4.0"
+}
+}
